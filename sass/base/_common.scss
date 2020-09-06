@@ -1,0 +1,33 @@
+
+html {
+    box-sizing: border-box;
+   }
+   *,
+   *::before,
+   *::after{
+    box-sizing: inherit;
+   }
+   
+   body {
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.03em;
+   background: $main-bg-color;
+   
+   }
+   
+.conteiner {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    }
+    
+    h1,
+    h2,
+    h3 {
+      margin-top: 0;
+      margin-bottom: 0;
+    }

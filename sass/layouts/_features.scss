@@ -3,7 +3,7 @@
 
 .section {
   list-style:none;
-  display: flex;
+  //display: flex;
   padding: 0;
   margin: 0;
  
@@ -19,19 +19,20 @@
   width: calc((1200 - 90px) / 4);
  
 
-  & li {
-    margin-right: 30px;  
-    }
+  //& li {
+ //   margin-right: 30px;  
+ //   }
 
-   & li:nth-child(4n+0) {
-  margin-right: 0;}
+ //  & li:nth-child(4n+0) {
+ // margin-right: 0;}
 }
 
 
 .features-block {
     display:flex;
      height: 120px;
-     width: 270px;
+    // width: 270px;
+     width: 100%;
     background-color: $features-bg-color;
     border-radius: 4px;
     margin-bottom: 30px;

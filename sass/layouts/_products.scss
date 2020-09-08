@@ -2,6 +2,7 @@
 //Чем мы занимаемся, продукт
 
  .heading-item {
+
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -33,7 +34,7 @@
   }
   .product {
     list-style: none;
-    display: flex;
+    //display: flex;
     padding: 0;
     margin: 0;
 
@@ -44,6 +45,7 @@
 
 
     .products{
+      display: none;
       padding-bottom: 94px;
     }
     

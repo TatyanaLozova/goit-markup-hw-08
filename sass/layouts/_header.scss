@@ -58,8 +58,9 @@
     }
     
     .menu-list {
+      display: none;
       list-style: none;
-      display: flex;
+      //display: flex;
       margin-top: 0px;
       margin-bottom: 0px;
       
@@ -71,10 +72,11 @@
       }
     
       .menu-contact{
+        display: none;
       list-style: none;
       align-items: center;
       text-decoration: none;
-      display: flex;
+      //display: flex;
       margin-top: 0px;
       margin-bottom: 0px;
       }

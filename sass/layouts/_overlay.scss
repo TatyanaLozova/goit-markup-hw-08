@@ -57,8 +57,7 @@
     line-height: 1.87;
     align-items: center;
     text-align: center;
-    display: inline-block;
-    letter-spacing: 0.06em;
+    display: inline-block; 
     color: $part-txt-color;
     background:$accent-bg-color;
     width: 200px;
@@ -68,6 +67,8 @@
     padding: 10px 32px;
     display: flex;
     justify-content: center;
+
+    margin: 0 auto; // для моб
     
     
     &:focus,

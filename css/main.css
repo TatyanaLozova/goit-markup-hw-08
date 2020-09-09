@@ -670,6 +670,35 @@ h1, h2, h3, h4 {
   color: #ffffff;
 }
 
+.button {
+  font-size: 16px;
+  line-height: 1.87;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: inline-block;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  width: 200px;
+  height: 50px;
+  border: transparent;
+  border-radius: 4px;
+  padding: 10px 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button:focus, .button:hover {
+  background: #2196f3;
+  color: #f5f4fa;
+}
+
 .btn:hover,
 .btn:focus {
   background: #2196f3;
@@ -833,6 +862,14 @@ h1, h2, h3, h4 {
   margin-right: 0;
 }
 
+.our-items {
+  margin-bottom: 30px;
+}
+
+.our-items:nth-child(4n+0) {
+  margin-bottom: 0;
+}
+
 .headline {
   font-style: normal;
   font-weight: 500;
@@ -842,6 +879,12 @@ h1, h2, h3, h4 {
   letter-spacing: 0.03em;
   text-decoration: none;
   padding-top: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .caption {
@@ -865,6 +908,9 @@ h1, h2, h3, h4 {
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .social {
@@ -1354,29 +1400,6 @@ h1, h2, h3, h4 {
   line-height: 1.14;
   text-transform: uppercase;
   color: #ffffff;
-}
-
-.button {
-  font-size: 16px;
-  line-height: 1.87;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  display: inline-block;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3;
-  width: 200px;
-  height: 50px;
-  border: transparent;
-  border-radius: 4px;
-  padding: 10px 32px;
-}
-
-.button:focus, .button:hover {
-  background: #2196f3;
-  color: #f5f4fa;
 }
 
 .fly::after {

@@ -36,6 +36,16 @@
   margin-right: 0;}
 }
 
+.our-items {
+    margin-bottom: 30px;
+   
+
+    &:nth-child(4n+0) {
+      margin-bottom: 0;}
+    }
+
+
+//@media screen and (max-width: 767px)
 
  .headline {
     font-style: normal;
@@ -46,7 +56,8 @@
     letter-spacing: 0.03em;
     text-decoration: none;
     padding-top: 30px;
-    
+    justify-content: center; //для моб
+    display: flex;
      }
       
    
@@ -69,6 +80,7 @@
     justify-items: center;
     align-items: center;
     padding-bottom: 30px;
+    justify-content: center; //для моб
   }
   .social {
     display: flex;

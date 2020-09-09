@@ -51,6 +51,31 @@
   .hidden {
   color: $part-txt-color;
   }
+
+  .button {
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 0.06em;
+    color: $part-txt-color;
+    background:$accent-bg-color;
+    width: 200px;
+    height: 50px;
+    border: transparent;
+    border-radius: 4px;
+    padding: 10px 32px;
+    display: flex;
+    justify-content: center;
+    
+    
+    &:focus,
+     &:hover {background:$accent-bg-color;
+    color: $features-bg-color;}
+     }
+
+
   
   .btn:hover,
    .btn:focus{background: $accent-bg-color;

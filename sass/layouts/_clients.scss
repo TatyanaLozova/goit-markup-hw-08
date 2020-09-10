@@ -4,12 +4,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 170px;
+    //width: 170px;
     height: 90px;
     border-radius: 4px;
     border: 1px solid #afb1b8;
     color: #afb1b8;
     fill: currentColor;
+
+    width: 100%; // для моб
   
   &:hover,
   &:focus {
@@ -38,15 +40,21 @@
       margin: 0;
       list-style: none;
 
-     // display: flex;
-      //flex-wrap: wrap;
-   
+      //для моб
+      display: flex; 
+      flex-wrap: wrap;
+      justify-content: space-between;
     }
   
   .clients-list {
-   width: calc((100% - 30px * 5) / 6);
-    margin-right: 30px;
-  
-  &:nth-child(6n+0) {
-    margin-right: 0;}
+   //width: calc((100% - 30px * 5) / 6);
+   width: calc((100% - 150px) / 6);
+    //margin-right: 30px;
+    display: flex;
+    //margin-bottom: 30px;
+    //align-items: center;
   }
+  
+  //&:nth-child(6n+0) {
+   // margin-right: 0;}
+  //}

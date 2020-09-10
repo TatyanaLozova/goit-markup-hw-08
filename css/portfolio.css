@@ -671,11 +671,6 @@ a {
 }
 
 .container-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   margin: 0;
   padding: 0;
   margin-top: 50px;
@@ -684,7 +679,6 @@ a {
 .container-li {
   display: block;
   margin-right: 30px;
-  width: calc((100% - 60px) / 3);
 }
 
 .container-li:nth-last-child(-n + 3) {

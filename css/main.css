@@ -668,35 +668,6 @@ h1, h2, h3, h4 {
   color: #ffffff;
 }
 
-.button {
-  font-size: 16px;
-  line-height: 1.87;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  display: inline-block;
-  color: #ffffff;
-  background: #2196f3;
-  width: 200px;
-  height: 50px;
-  border: transparent;
-  border-radius: 4px;
-  padding: 10px 32px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 0 auto;
-}
-
-.button:focus, .button:hover {
-  background: #2196f3;
-  color: #f5f4fa;
-}
-
 .btn:hover,
 .btn:focus {
   background: #2196f3;
@@ -1430,5 +1401,34 @@ h1, h2, h3, h4 {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.button {
+  font-size: 16px;
+  line-height: 1.87;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: inline-block;
+  color: #ffffff;
+  background: #2196f3;
+  width: 200px;
+  height: 50px;
+  border: transparent;
+  border-radius: 4px;
+  padding: 10px 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+.button:focus, .button:hover {
+  background: #2196f3;
+  color: #f5f4fa;
 }
 /*# sourceMappingURL=main.css.map */

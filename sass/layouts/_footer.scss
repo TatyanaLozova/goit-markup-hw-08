@@ -92,6 +92,8 @@
        list-style: none;
 
        margin-bottom: 60px; // для моб
+       justify-content: center; //для моб
+    
     
     }
     .link-items:not(:last-child) {
@@ -119,6 +121,7 @@
     background-color: rgba(255, 255, 255, 0.1);
     fill: #ffffff;
     border-radius: 50%;
+  
   
   
   &:hover,

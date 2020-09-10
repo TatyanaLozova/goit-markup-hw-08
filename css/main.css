@@ -394,10 +394,8 @@ html {
 *::after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
-}
-
-* {
-  outline: 2px solid blue;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -411,9 +409,9 @@ body {
 }
 
 .conteiner {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 15px;
-  margin: 0 auto;
 }
 
 @media (min-width: 480px) {
@@ -898,6 +896,7 @@ h1, h2, h3, h4 {
   letter-spacing: 0.03em;
   color: #757575;
   text-decoration: none;
+  margin-top: 10px;
 }
 
 .social-flex {
@@ -1263,10 +1262,11 @@ h1, h2, h3, h4 {
 }
 
 .clients-list {
-  width: calc((100% - 150px) / 6);
+  width: calc((100% - 30px) / 2);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 30px;
 }
 
 .footer {
@@ -1384,6 +1384,7 @@ h1, h2, h3, h4 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .soc-footer {
@@ -1416,6 +1417,7 @@ h1, h2, h3, h4 {
   line-height: 1.14;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .fly::after {

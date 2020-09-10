@@ -48,10 +48,11 @@
   
   .clients-list {
    //width: calc((100% - 30px * 5) / 6);
-   width: calc((100% - 150px) / 6);
+   //width: calc((100% - 150px) / 6); для деск
+   width: calc((100% - 30px) / 2);
     //margin-right: 30px;
     display: flex;
-    //margin-bottom: 30px;
+    margin-bottom: 30px;
     //align-items: center;
   }
   

@@ -631,9 +631,8 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -656,6 +655,7 @@ a {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 15px;
 }
 
 .btn:hover, .btn:focus {
@@ -678,7 +678,6 @@ a {
 
 .container-li {
   display: block;
-  margin-right: 30px;
 }
 
 .container-li:nth-last-child(-n + 3) {

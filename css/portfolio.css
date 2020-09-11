@@ -1245,6 +1245,10 @@ a {
     outline: none;
     border: none;
     background: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .menu-button:hover, .menu-button:focus {
     color: #2196f3;
@@ -1259,7 +1263,6 @@ a {
     display: none;
   }
   .menu-container {
-    text-align: center;
     background-color: #ffffff;
     opacity: 0;
     pointer-events: none;
@@ -1268,6 +1271,7 @@ a {
     -webkit-transition-duration: 250ms;
             transition-duration: 250ms;
     position: absolute;
+    text-align: center;
     top: 100%;
     left: 0;
     width: 100%;

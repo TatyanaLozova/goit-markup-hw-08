@@ -63,7 +63,7 @@
     //opacity: 1;
     position: absolute;
     text-align: center;
-    top: 15%;
+    top: 12%;
     left: 0;
     width: 100%;
     padding: 60px;
@@ -71,5 +71,10 @@
     &.is-open {
       display: block;
     }
+  }
+}
+@media screen and (min-width: 768px) {
+  .menu-button {
+    display: none;
   }
 }

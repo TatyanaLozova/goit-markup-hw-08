@@ -1457,6 +1457,9 @@ h1, h2, h3, h4 {
 
 @media screen and (max-width: 767px) {
   .menu-button {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin: 0;
     padding: 0;
     outline: none;
@@ -1484,9 +1487,10 @@ h1, h2, h3, h4 {
     background-color: #ffffff;
     position: absolute;
     text-align: center;
-    top: 0;
+    top: 15%;
     left: 0;
-    width: 95%;
+    width: 100%;
+    padding: 60px;
   }
   .menu-container.is-open {
     display: block;

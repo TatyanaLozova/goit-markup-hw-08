@@ -27,6 +27,7 @@
 @media screen and (max-width: 767px) {
   .menu-button {
     // display: inline-flex;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
     outline: none;
@@ -60,9 +61,10 @@
     //opacity: 1;
     position: absolute;
     text-align: center;
-    top: 0;
+    top: 15%;
     left: 0;
-    width: 95%;
+    width: 100%;
+    padding: 60px;
 
     &.is-open {
       display: block;

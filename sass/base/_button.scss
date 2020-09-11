@@ -45,6 +45,9 @@
     }
   }
 
+  .hed {
+    position: relative;
+  }
   .menu-button .icon-cross {
     display: none;
   }
@@ -63,7 +66,7 @@
     //opacity: 1;
     position: absolute;
     text-align: center;
-    top: 12%;
+    top: 100%;
     left: 0;
     width: 100%;
     padding: 60px;

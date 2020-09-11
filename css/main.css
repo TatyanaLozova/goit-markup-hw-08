@@ -486,6 +486,30 @@ img {
   margin: 0 auto;
 }
 
+@media (min-width: 480px) {
+  .container-heder {
+    width: 480px;
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-heder {
+    width: 768px;
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-heder {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 .flexbox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -516,6 +540,8 @@ img {
   list-style: none;
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu-list li {
@@ -530,6 +556,8 @@ img {
   text-decoration: none;
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu-contact li {
@@ -628,6 +656,30 @@ img {
   height: 600px;
 }
 
+@media (min-width: 480px) {
+  .overlay {
+    width: 480px;
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+}
+
+@media (min-width: 768px) {
+  .overlay {
+    width: 768px;
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .overlay {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 .title {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
@@ -659,7 +711,34 @@ img {
           align-items: center;
 }
 
-h1, h2, h3, h4 {
+@media (min-width: 480px) {
+  .conteiner-title {
+    width: 480px;
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+}
+
+@media (min-width: 768px) {
+  .conteiner-title {
+    width: 768px;
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .conteiner-title {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
   margin: 0;
 }
 
@@ -1474,6 +1553,9 @@ h1, h2, h3, h4 {
   .menu-button:hover, .menu-button:focus {
     color: #2196f3;
   }
+  .hed {
+    position: relative;
+  }
   .menu-button .icon-cross {
     display: none;
   }
@@ -1490,7 +1572,7 @@ h1, h2, h3, h4 {
     background-color: #ffffff;
     position: absolute;
     text-align: center;
-    top: 12%;
+    top: 100%;
     left: 0;
     width: 100%;
     padding: 60px;

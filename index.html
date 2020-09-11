@@ -16,7 +16,7 @@
           <a href="/index.html" class="logo"
             ><span class="logo-part">Web</span>Studio</a
           >
-
+          <div class="menu-container" id="menu-container" data-menu>
           <ul class="menu-list">
             <li><a href="index.html" class="menu-link active-link">Студия</a></li>
             <li><a href="portfolio.html" class="menu-link">Портфолио</a></li>
@@ -42,6 +42,13 @@
             </a>
           </li>
         </ul>
+        </div>
+        <button type="button" class="menu-button is-open" aria-expanded="false" aria-controls="menu-container"data-menu-button>
+          <svg widht="40" height="40" aria-label="Бургер меню">
+            <use class="icon-cross" href="./images/дз4/sprite.svg#icon-close"></use>
+            <use class="icon-menu" href="./images/дз4/sprite.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!--название-->
@@ -473,4 +480,5 @@
       </div>
     </footer>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>

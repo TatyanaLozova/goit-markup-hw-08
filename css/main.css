@@ -409,6 +409,7 @@ body {
 }
 
 .conteiner {
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
@@ -512,7 +513,6 @@ img {
 }
 
 .menu-list {
-  display: none;
   list-style: none;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -523,7 +523,6 @@ img {
 }
 
 .menu-contact {
-  display: none;
   list-style: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -559,7 +558,7 @@ img {
   fill: #2196f3;
 }
 
-.menu-contact li:nth-child(2n+0) {
+.menu-contact li:nth-child(2n + 0) {
   margin-right: 0;
 }
 
@@ -829,7 +828,7 @@ h1, h2, h3, h4 {
   border-radius: 0px 0px 4px 4px;
 }
 
-.our-items:nth-child(4n+0) {
+.our-items:nth-child(4n + 0) {
   margin-right: 0;
 }
 
@@ -837,7 +836,7 @@ h1, h2, h3, h4 {
   margin-bottom: 30px;
 }
 
-.our-items:nth-child(4n+0) {
+.our-items:nth-child(4n + 0) {
   margin-bottom: 0;
 }
 
@@ -1430,5 +1429,59 @@ h1, h2, h3, h4 {
 .button:focus, .button:hover {
   background: #2196f3;
   color: #f5f4fa;
+}
+
+@media screen and (max-width: 767px) {
+  .menu-button {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    background: none;
+  }
+  .menu-button:hover, .menu-button:focus {
+    color: #2196f3;
+  }
+  .menu-button .icon-cross {
+    display: none;
+  }
+  .menu-button.is-open .icon-cross {
+    display: block;
+  }
+  .menu-button.is-open .icon-menu {
+    display: none;
+  }
+  .menu-container {
+    text-align: center;
+    background-color: #ffffff;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition-duration: 250ms;
+            transition-duration: 250ms;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+  .menu-container.is-open {
+    display: block;
+    -webkit-transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition-duration: 250ms;
+            transition-duration: 250ms;
+    visibility: visible;
+    pointer-events: initial;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */

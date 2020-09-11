@@ -1,23 +1,79 @@
 .button {
-    font-size: 16px;
-    line-height: 1.87;
-    align-items: center;
-    text-align: center;
-    display: inline-block; 
-    color: $part-txt-color;
-    background:$accent-bg-color;
-    width: 200px;
-    height: 50px;
-    border: transparent;
-    border-radius: 4px;
-    padding: 10px 32px;
-    display: flex;
-    justify-content: center;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  color: $part-txt-color;
+  background: $accent-bg-color;
+  width: 200px;
+  height: 50px;
+  border: transparent;
+  border-radius: 4px;
+  padding: 10px 32px;
+  display: flex;
+  justify-content: center;
 
-    margin: 0 auto; // для моб
-    
-    
-    &:focus,
-     &:hover {background:$accent-bg-color;
-    color: $features-bg-color;}
-     }
+  margin: 0 auto; // для моб
+
+  &:focus,
+  &:hover {
+    background: $accent-bg-color;
+    color: $features-bg-color;
+  }
+}
+
+//меню Бургер
+@media screen and (max-width: 767px) {
+  .menu-button {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    background: none;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
+
+  .menu-button .icon-cross {
+    display: none;
+  }
+  .menu-button.is-open .icon-cross {
+    display: block;
+  }
+  .menu-button.is-open .icon-menu {
+    display: none;
+  }
+
+  .menu-container {
+    text-align: center;
+    background-color: #ffffff;
+    opacity: 0;
+    pointer-events: none;
+
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+
+    &.is-open {
+      display: block;
+      transition: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 250ms;
+      visibility: visible;
+      pointer-events: initial;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .menu-button {
+      display: none;
+    }
+  }
+}

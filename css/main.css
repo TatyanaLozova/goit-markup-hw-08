@@ -1484,6 +1484,8 @@ h1, h2, h3, h4 {
   }
   .menu-container {
     display: none;
+    font-size: 18px;
+    line-height: 1.16;
     background-color: #ffffff;
     position: absolute;
     text-align: center;

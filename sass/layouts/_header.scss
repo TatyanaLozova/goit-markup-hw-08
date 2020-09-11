@@ -82,9 +82,13 @@
     line-height: 1.16;
   }
 
-  // & li {
-  //  margin-right: 50px;
-  //}
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+
+  & li {
+    margin-right: 50px;
+  }
 }
 
 .menu-contact {
@@ -101,7 +105,12 @@
     font-size: 18px;
     line-height: 1.16;
   } // моб
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 }
+
 .menu-contact li {
   padding-top: 30px;
   padding-bottom: 30px;

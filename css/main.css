@@ -1457,9 +1457,6 @@ h1, h2, h3, h4 {
 
 @media screen and (max-width: 767px) {
   .menu-button {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
     margin: 0;
     padding: 0;
     outline: none;
@@ -1483,33 +1480,16 @@ h1, h2, h3, h4 {
     display: none;
   }
   .menu-container {
+    display: none;
     background-color: #ffffff;
-    opacity: 0;
-    pointer-events: none;
-    -webkit-transition: cubic-bezier(0.4, 0, 0.2, 1);
-    transition: cubic-bezier(0.4, 0, 0.2, 1);
-    -webkit-transition-duration: 250ms;
-            transition-duration: 250ms;
     position: absolute;
     text-align: center;
-    top: 100%;
+    top: 0;
     left: 0;
-    width: 100%;
+    width: 95%;
   }
   .menu-container.is-open {
     display: block;
-    -webkit-transition: cubic-bezier(0.4, 0, 0.2, 1);
-    transition: cubic-bezier(0.4, 0, 0.2, 1);
-    -webkit-transition-duration: 250ms;
-            transition-duration: 250ms;
-    visibility: visible;
-    pointer-events: initial;
-  }
-}
-
-@media screen and (max-width: 767px) and (min-width: 768px) {
-  .menu-button {
-    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */

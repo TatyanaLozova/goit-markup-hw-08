@@ -8,6 +8,8 @@
 .features-item {
   @media screen and (min-width: 768px) {
     width: calc((100% - 30px) / 2);
+    display: flex;
+    flex-wrap: wrap;
   }
 
   @media screen and (min-width: 1200px) {

@@ -847,6 +847,13 @@ h4 {
   color: #757575;
 }
 
+@media screen and (max-width: 1199px) {
+  .products {
+    display: none;
+    padding-bottom: 94px;
+  }
+}
+
 .heading-item {
   font-style: normal;
   font-weight: bold;
@@ -878,23 +885,21 @@ h4 {
   position: relative;
 }
 
-.item:nth-child(3n+0) {
+.item:nth-child(3n + 0) {
   margin-right: 0;
 }
 
 .product {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0;
   margin: 0;
 }
 
 .product li {
   margin-right: 30px;
-}
-
-.products {
-  display: none;
-  padding-bottom: 94px;
 }
 
 .user {

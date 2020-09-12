@@ -471,6 +471,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   margin-right: auto;
+  margin-left: auto;
   letter-spacing: 0.02em;
 }
 
@@ -588,8 +589,6 @@ img {
 @media screen and (min-width: 1200px) {
   .menu-contact .menu-contact li:not(:last-child) {
     padding-bottom: 0;
-  }
-  .menu-contact .menu-item {
     margin-right: 30px;
   }
 }

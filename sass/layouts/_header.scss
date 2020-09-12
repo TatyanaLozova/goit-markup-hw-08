@@ -18,6 +18,7 @@
   display: flex;
   align-items: center;
   margin-right: auto;
+  margin-left: auto;
   letter-spacing: 0.02em;
 }
 .container-heder {
@@ -66,7 +67,6 @@
 
 .menu-list {
   list-style: none;
-  //display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
   color: #212121;
@@ -112,11 +112,11 @@
   @media screen and (min-width: 1200px) {
     .menu-contact li:not(:last-child) {
       padding-bottom: 0;
-      // margin-right: 30px;
-    }
-    .menu-item {
       margin-right: 30px;
     }
+    //.menu-item {
+    //  margin-right: 30px;
+    //}
   }
 
   @media screen and (min-width: 768px), (max-width: 1199px) {

@@ -1082,7 +1082,6 @@ h4 {
 .input-footer {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 100%;
   height: 50px;
   padding: 12px 0px 12px 16px;
   background-color: transparent;
@@ -1091,7 +1090,20 @@ h4 {
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 12px;
-  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .input-footer {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .input-footer {
+    width: 450px;
+    margin-bottom: 20px;
+  }
 }
 
 .button-form {
@@ -1512,10 +1524,26 @@ h4 {
   margin-top: 9px;
 }
 
-.footer > .conteiner {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+@media screen and (min-width: 768px) {
+  .footer > .conteiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.footer > .conteiner .footer-blok:not(:last-child) {
+  width: 50%;
+}
+
+.footer > .conteiner .footer-blok:last-child {
+  width: 100%;
+  margin-top: 60px;
 }
 
 .footer-block > .heder-social {

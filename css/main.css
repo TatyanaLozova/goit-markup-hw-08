@@ -810,27 +810,57 @@ h4 {
   margin: 0;
 }
 
+@media screen and (min-width: 480px) {
+  .section {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    width: 768px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
-  .features {
+  .section {
+    width: 1200px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 0;
-    margin: 0;
-    padding-top: 94px;
-    padding-bottom: 94px;
-    width: calc((1200 - 90px) / 4);
+  }
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+@media screen and (min-width: 768px) {
+  .features {
+    width: calc((100% - 60px) / 2);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .features {
+    width: calc((100% - 60px) / 4);
   }
   .features li {
     margin-right: 30px;
   }
   .features li:nth-child(4n + 0) {
     margin-right: 0;
-  }
-  .section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
   }
 }
 

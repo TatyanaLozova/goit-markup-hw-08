@@ -676,6 +676,7 @@ a {
   padding-bottom: 94px;
   padding-top: 94px;
   border-top: 1px solid #ECECEC;
+  text-decoration: none;
 }
 
 .container-filter {
@@ -725,11 +726,14 @@ a {
   border-radius: 4px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .container-list {
     margin: 0;
     padding: 0;
     margin-top: 50px;
+  }
+  .container-li {
+    width: 450px;
   }
 }
 
@@ -741,9 +745,6 @@ a {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-}
-
-@media screen and (min-width: 768px), (max-width: 1199px) {
   .container-li {
     display: block;
     margin-right: 30px;

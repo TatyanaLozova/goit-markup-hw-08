@@ -577,15 +577,24 @@ img {
   }
 }
 
-@media screen and (min-width: 768px), (max-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .menu-contact {
-    margin-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .menu-contact .menu-contact li:not(:last-child) {
+    padding-bottom: 0;
+    margin-right: 30px;
   }
 }
 
 @media screen and (min-width: 768px), (max-width: 1199px) {
-  .menu-contact li {
-    padding-bottom: 16px;
+  .menu-contact .menu-contact li:not(:last-child) {
+    padding-bottom: 10px;
   }
 }
 
@@ -1377,6 +1386,18 @@ a {
 @media screen and (min-width: 768px) {
   .menu-button {
     display: none;
+  }
+  .menu-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=portfolio.css.map */

@@ -561,10 +561,6 @@ img {
   }
 }
 
-.menu-list li {
-  margin-right: 50px;
-}
-
 .menu-contact {
   list-style: none;
   -webkit-box-align: center;
@@ -584,17 +580,16 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px), (max-width: 1199px) {
   .menu-contact {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    margin-bottom: 10px;
   }
 }
 
-.menu-contact li {
-  padding-top: 30px;
-  padding-bottom: 30px;
+@media screen and (min-width: 768px), (max-width: 1199px) {
+  .menu-contact li {
+    padding-bottom: 16px;
+  }
 }
 
 .menu-item {
@@ -648,11 +643,6 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.menu-button li + li {
-  margin-left: 8px;
-  list-style: none;
 }
 
 .active-link::after {

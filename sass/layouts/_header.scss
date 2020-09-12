@@ -86,9 +86,9 @@
     display: flex;
   }
 
-  & li {
-    margin-right: 50px;
-  }
+  //& li {
+  // margin-right: 50px;
+  //}
 }
 
 .menu-contact {
@@ -106,15 +106,17 @@
     line-height: 1.16;
   } // моб
 
-  @media screen and (min-width: 768px) {
-    display: flex;
+  @media screen and (min-width: 768px), (max-width: 1199px) {
+    margin-bottom: 10px;
   }
 }
 
 .menu-contact li {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  //margin-right: 30px; моб
+  @media screen and (min-width: 768px), (max-width: 1199px) {
+    //padding-top: 30px;
+    padding-bottom: 16px;
+    //margin-right: 30px; моб
+  }
 }
 
 .menu-item {
@@ -166,10 +168,10 @@
 //  margin-left: 50px;
 //}
 
-.menu-button li + li {
-  margin-left: 8px;
-  list-style: none;
-}
+//.menu-button li + li {
+//  margin-left: 8px;
+//  list-style: none;
+//}
 
 //синяя полоска актив
 .active-link::after {

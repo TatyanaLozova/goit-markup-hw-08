@@ -31,7 +31,6 @@
 .our-items {
   margin-bottom: 30px;
   @media screen and (min-width: 768px) {
-    position: relative;
     width: calc((100% - 30px * 2) / 2);
   }
 

@@ -14,10 +14,13 @@ a {
 .container-filter {
   display: flex;
   flex-wrap: wrap;
-  // justify-content: center; mob
   list-style: none;
   margin: 0;
   padding: 0;
+
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+  }
 }
 .container-filter li {
   margin-right: 8px;

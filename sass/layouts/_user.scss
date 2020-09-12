@@ -29,6 +29,12 @@
 }
 
 .our-items {
+  @media screen and (min-width: 768px) {
+    position: relative;
+    width: calc((100% - 30px * 2) / 2);
+    margin-bottom: 30px;
+  }
+
   @media screen and (min-width: 1200px) {
     width: calc((100% - 30px * 3) / 4);
     margin-right: 30px;

@@ -1,15 +1,16 @@
 //Особенности
 
 .section {
+  display: flex;
+  justify-content: space-between;
   list-style: none;
   padding: 0;
   margin: 0;
+  flex-wrap: wrap;
 }
 .features-item {
   @media screen and (min-width: 768px) {
     width: calc((100% - 30px) / 2);
-    display: flex;
-    flex-wrap: wrap;
   }
 
   @media screen and (min-width: 1200px) {
@@ -33,10 +34,8 @@
   padding-bottom: 94px;
 }
 
-@media screen and (min-width: 1200px) {
-  .features-block {
-    width: 270px;
-  }
+.features-block {
+  width: 270px;
 }
 
 .features-block {

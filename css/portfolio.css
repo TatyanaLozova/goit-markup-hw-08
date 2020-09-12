@@ -588,6 +588,8 @@ img {
 @media screen and (min-width: 1200px) {
   .menu-contact .menu-contact li:not(:last-child) {
     padding-bottom: 0;
+  }
+  .menu-contact .menu-item {
     margin-right: 30px;
   }
 }

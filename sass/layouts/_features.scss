@@ -1,60 +1,62 @@
-
 //Особенности
 
 .section {
-  list-style:none;
+  list-style: none;
   //display: flex;
   padding: 0;
   margin: 0;
- 
-  }
-
-     
- .features{
-  display: flex;
-  padding: 0;
-  margin: 0;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  width: calc((1200 - 90px) / 4);
- 
-
-  //& li {
- //   margin-right: 30px;  
- //   }
-
- //  & li:nth-child(4n+0) {
- // margin-right: 0;}
 }
 
+@media screen and (min-width: 1200px) {
+  .features {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    width: calc((1200 - 90px) / 4);
+
+    & li {
+      margin-right: 30px;
+    }
+
+    & li:nth-child(4n + 0) {
+      margin-right: 0;
+    }
+  }
+  .section {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .features-block {
+    width: 270px;
+  }
+}
 
 .features-block {
-    display:flex;
-     height: 120px;
-    // width: 270px;
-     width: 100%;
-    background-color: $features-bg-color;
-    border-radius: 4px;
-    margin-bottom: 30px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px; //для моб
- }
- .icon-features{
-    height: 70px;
-     width: 70px;
-     
- }
+  display: flex;
+  height: 120px;
 
- 
- .text { 
-     font-weight: normal;
-     font-size: 14px;
-     line-height: 1.71;
-     letter-spacing: 0.03em;
-     margin-top: 0px;
-     margin-bottom: 0px;
-     color: $sec-txt-color;
- 
- }
- 
+  width: 100%;
+  background-color: $features-bg-color;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px; //для моб
+}
+.icon-features {
+  height: 70px;
+  width: 70px;
+}
+
+.text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: $sec-txt-color;
+}

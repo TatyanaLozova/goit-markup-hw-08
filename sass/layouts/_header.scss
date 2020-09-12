@@ -25,20 +25,16 @@
   padding: 0 15px;
   margin: 0 auto;
 
-  @include for-size(tablet-portrait) {
+  @media screen and (min-width: 480px) {
     width: 480px;
-    padding-left: 31px;
-    padding-right: 31px;
   }
-  @include for-size(tablet-landscape) {
+
+  @media screen and (min-width: 768px) {
     width: 768px;
-    padding-left: 39px;
-    padding-right: 39px;
   }
-  @include for-size(desktop) {
+
+  @media screen and (min-width: 1200px) {
     width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -84,11 +80,14 @@
 
   @media screen and (min-width: 768px) {
     display: flex;
+    align-items: center;
   }
+}
 
-  //& li {
-  // margin-right: 50px;
-  //}
+@media screen and (min-width: 768px) {
+  .menu-list li:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .menu-contact {

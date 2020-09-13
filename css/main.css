@@ -398,10 +398,6 @@ html {
   padding: 0px;
 }
 
-* {
-  outline: 2px solid blue;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;

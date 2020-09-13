@@ -88,6 +88,12 @@
     margin-top: 60px;
   }
 }
+.footer > .conteiner {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
+
 .footer-block > .heder-social {
   display: flex;
   justify-content: space-evenly;

@@ -211,11 +211,18 @@
           <h2 class="subtitle">Наша команда</h2>
           <ul class="our-team">
             <li class="our-items">
+              <picture>
+                <source srcset="./images/team/igor-desktop@1x.jpg 1x, ./images/team/igor-desktop@2x.jpg 2x," media="(min-width: 1200px)" />
+                <source srcset="./images/team/igor-tablet@1x.jpg 1x, ./images/team/igor-tablet@2x.jpg 2x" media="(min-width: 768px)" />
+                <source srcset="./images/team/igor-mobile@1x.jpg 1x, ./images/team/igor-mobile@2x.jpg 2x" media="(max-width: 767px)" />
+                <img src="./images/team/desktop/img1.jpg" class="about-us-picture" width="270" height="260"
+                  alt="Nikolay Kucherenko фото" />
               <img
                 src="./images/дз4/новый макет/Игорь1.jpg"
                 alt="фото Игорь"
                 width="450"
               />
+              </picture>
               <h3 class="headline">Игорь Демьяненко</h3>
               <p class="caption">Product Designer</p>
               <ul class="social-flex">

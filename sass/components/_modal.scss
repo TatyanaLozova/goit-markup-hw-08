@@ -23,12 +23,19 @@
     width: 450px;
     margin-bottom: 20px;
   }
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+  }
 }
+
 .button-form {
-  //display: flex;
   justify-content: center;
   border: none;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
 
 //Модальное окно

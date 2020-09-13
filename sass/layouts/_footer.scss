@@ -72,8 +72,8 @@
   margin-top: 9px;
 }
 
-.footer > .conteiner {
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+  .footer > .conteiner {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -88,8 +88,17 @@
     margin-top: 60px;
   }
 }
-.footer-b {
-  @media screen and (min-width: 1200px) {
+
+@media screen and (min-width: 1200px) {
+  .footer > .conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-b {
     display: flex;
   }
 }

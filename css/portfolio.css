@@ -852,6 +852,12 @@ a {
   color: 250ms;
 }
 
+@media screen and (max-width: 479px) {
+  .text {
+    font-size: 15px;
+  }
+}
+
 .block-text {
   padding-left: 24px;
   padding-right: 24px;

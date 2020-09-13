@@ -1159,6 +1159,12 @@ a {
   border-radius: 4px;
 }
 
+@media screen and (max-width: 479px) {
+  .modal {
+    max-width: 320px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .modal {
     width: 450px;

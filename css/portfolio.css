@@ -786,6 +786,7 @@ a {
   list-style-type: none;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
+  width: 100%;
 }
 
 .container-li:hover {

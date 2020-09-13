@@ -62,7 +62,18 @@
   color: $part-txt-color;
   text-decoration: none;
 }
-
+@media screen and (min-width: 1200px) {
+  .footer-b {
+    display: flex;
+  }
+}
+.footer > .conteiner {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
 .contacts-item {
   display: block;
   text-decoration: none;
@@ -86,20 +97,6 @@
   .footer-blok:last-child {
     width: 100%;
     margin-top: 60px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .footer > .conteiner {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .footer-b {
-    display: flex;
   }
 }
 

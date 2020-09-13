@@ -146,6 +146,13 @@ a {
 
   padding: 63px 24px;
 
+  @media screen and (max-width: 479px) {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+  }
+
   background-color: rgba(33, 150, 243, 0.9);
 
   transform: translateY(100%);
@@ -166,7 +173,7 @@ a {
   color: 250ms;
 
   @media screen and (max-width: 479px) {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 

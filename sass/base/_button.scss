@@ -71,6 +71,7 @@
     left: 0;
     width: 100%;
     padding: 60px;
+    z-index: 1;
 
     &.is-open {
       display: block;

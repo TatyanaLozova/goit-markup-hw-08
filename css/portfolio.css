@@ -1423,6 +1423,7 @@ a {
     left: 0;
     width: 100%;
     padding: 60px;
+    z-index: 1;
   }
   .menu-container.is-open {
     display: block;

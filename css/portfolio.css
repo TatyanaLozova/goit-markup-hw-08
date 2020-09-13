@@ -864,6 +864,7 @@ a {
   line-height: 2;
   letter-spacing: 0.06em;
   text-decoration: none;
+  margin-bottom: 10px;
 }
 
 .subtitle {

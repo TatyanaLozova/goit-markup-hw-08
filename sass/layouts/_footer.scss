@@ -88,7 +88,7 @@
     margin-top: 60px;
   }
 }
-.footer > .conteiner {
+.footer-b {
   @media screen and (min-width: 1200px) {
     display: flex;
   }
@@ -121,8 +121,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $part-txt-color;
-
-  margin-bottom: 20px; //для моб
+  margin-bottom: 20px;
 }
 
 .soc-footer {
@@ -148,8 +147,18 @@
   line-height: 1.14;
   text-transform: uppercase;
   color: $part-txt-color;
+  margin-bottom: 20px;
+}
 
+.heder-social {
   margin-bottom: 20px; //для моб
+}
+.footer-social {
+  display: flex;
+  list-style: none;
+
+  margin-bottom: 60px; // для моб
+  justify-content: center; //для моб
 }
 
 //кнопка футер

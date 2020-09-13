@@ -481,6 +481,12 @@ img {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 479px) {
+  .container-heder {
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .container-heder {
     width: 480px;
@@ -1566,7 +1572,7 @@ h4 {
 }
 
 @media screen and (min-width: 1200px) {
-  .footer > .conteiner {
+  .footer-b {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1642,6 +1648,21 @@ h4 {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
+}
+
+.heder-social {
+  margin-bottom: 20px;
+}
+
+.footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-bottom: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .fly::after {
